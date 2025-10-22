@@ -1,6 +1,6 @@
 export interface WeatherData{
     latitude: number;
-    longitute: number;
+    longitude: number;
     generationtime_ms: number;
     utc_offset_seconds: number;
     timezone: string;
@@ -15,7 +15,7 @@ export interface WeatherData{
     };
 }
 
-export interface NewData{
+export interface NewsData{
     posts: Array<{
         id: number;
         title: string;
